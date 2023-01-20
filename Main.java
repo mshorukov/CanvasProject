@@ -23,7 +23,7 @@ public class Main {
         String title2 = "This title is already short";
         String title3 = "This title is longer than the maximum length";
 
-        assert shortTitle(title1, 25).equacls("Volvo released a new...");
+        assert shortTitle(title1, 25).equals("Volvo released a new...");
         assert shortTitle(title2, 50).equals("This title is already short");
         assert shortTitle(title3, 10).equals("This...");
     }
